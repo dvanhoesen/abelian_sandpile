@@ -12,3 +12,8 @@ sandpile_2D.py - main Python code for simulating the Abelian Sandpile model. Use
 images_to_video.py - using the images optionally saved in the sandpile_2D.py to build an avi video using OpenCV. 
 requirements.txt - simulation requirements (Numpy, Matplotlib, and OpenCV)
 README.md - this file
+
+# Notes
+Tested on Windows 10 with Python 3.9.12
+OpenCV installed via
+pip install opencv-python
