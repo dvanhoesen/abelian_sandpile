@@ -1,6 +1,10 @@
 # abelian_sandpile
 Bak-Tang-Wiesenfeld Abelian Sandpile Model
 
+Youtube video Link: 
+
+[Abelian Sandpile (Bak-Tang-Wiesenfeld)](https://youtu.be/GqQHJUpbCbU)
+
 # Description
 Python scripts to simulate the Abelian Sandpile model, also known as the Bak-Tang-Wiesenfeld model. A square grid is developed with random numbers between 0 and 3. For N iterations, a random grid point is selected and 1 is added to the grid value. If the grid value becomes 4, then the grid point is reduced to 0 and the value of 4 is given to the point's top, right, bottom, and left neighbors, which are each increased by a value of 1. If any of the neighboring grid points becomes a value of 4, then that point is reduced to 0 and its neighboring points are bumped by 1. This continues until there are no remaining points with a value of 4. This routine creates a cascade that can spread throughout the grid system. Matplotlib ion() and draw() functions are used to enable dynamic figure updating in the iteration loops. Four plots are created in the simulation: (1) a simulation grid with colors representing values between 0 and 4, (2) a reduced grid showing the cascade points alone along with the number of times a grid point was involved in the cascade (blue = less, red = more), (3) the average grid value for each iteration of the simulation, and (4) a distribution of the magnitude of the cascade (the number of grid points involved in the cascade). 
 
