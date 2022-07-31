@@ -7,13 +7,13 @@ Python scripts to simulate the Abelian Sandpile model, also known as the Bak-Tan
 The average grid value saturates to a value just above 2 due to the dissipative boundary conditions. You can think of the model as a pile of sand with the grid boundaries as a the edge of shelf or table where if the sand falls off the edge, it no longer interacts with the rest of the system. 
 
 # Files
-images\ - example images for generating a video from the saved simulation images
-sandpile_2D.py - main Python code for simulating the Abelian Sandpile model. Uses Numpy for matrix operations and Matplotlib for image generation and dynamic display. OpenCV is used for building the video file. 
-images_to_video.py - using the images optionally saved in the sandpile_2D.py to build an avi video using OpenCV. 
-requirements.txt - simulation requirements (Numpy, Matplotlib, and OpenCV)
-README.md - this file
+ - images\ - example images for generating a video from the saved simulation images
+ - sandpile_2D.py - main Python code for simulating the Abelian Sandpile model. Uses Numpy for matrix operations and Matplotlib for image generation and dynamic display. OpenCV is used for building the video file. 
+ - images_to_video.py - using the images optionally saved in the sandpile_2D.py to build an avi video using OpenCV. 
+ - requirements.txt - simulation requirements (Numpy, Matplotlib, and OpenCV)
+ - README.md - this file
 
 # Notes
-Tested on Windows 10 with Python 3.9.12
-OpenCV installed via
-pip install opencv-python
+ - Tested on Windows 10 with Python 3.9.12
+ - OpenCV installed via
+   - pip install opencv-python
